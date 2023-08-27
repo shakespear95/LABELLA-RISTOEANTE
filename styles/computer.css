@@ -7,6 +7,8 @@ a {
 p,
 h2 {
     color: aliceblue;
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
 }
 
 body {
@@ -66,4 +68,88 @@ nav {
 .text1 > h2 {
     font-family: 'Cormorant', sans-serif;
     font-size: 75px;
+}
+
+.text2 {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.text2 > h2 {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 60px;
+}
+
+.home1{
+    background-color: #32302f;
+}
+.about {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.about img {
+    width: 40%;
+    height: auto;
+}
+
+.gallery {
+    background-color: #FFF;
+}
+
+.gallerytext> h2 {
+    color: black;
+    font-family: 'cormorant', sans-serif;
+    width: 25%;
+    font-size: 56px;
+    padding:10% 0% 0% 5%
+
+}
+
+.tab {
+    width: 30%;
+}
+
+.tab > h2,
+.tab > p {
+    color: black;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.text1 > button,
+.text2 > button {
+    background-color: black;
+    width: 15em;
+    height: 4em;
+    color: #fff;
+    border: #c0977c solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.youtube{
+    background-color: #FFF;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.youtube1 {
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.youtube1 > h2 {
+    color: black;
+    font-family: 'cormorant', sans-serif;
+    font-size: 56px;
+
 }
