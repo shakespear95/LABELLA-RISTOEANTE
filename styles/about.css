@@ -1,4 +1,3 @@
-
 a {
     text-decoration: none;
     
@@ -53,105 +52,92 @@ nav {
     color: #c0977c;
 }
 
-#home {
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-}
-
 .text1 {
-    margin-top: 20%;
-    text-align: center;
-}
-
-.text1 > h2 {
-    font-family: 'Cormorant', sans-serif;
-    font-size: 75px;
-}
-
-.text2 {
-    width: 50%;
-    margin-left: 5%;
-}
-
-.text2 > h2 {
-    font-family: 'Cormorant', sans-serif;
-    font-size: 60px;
-}
-
-.home1{
-    background-color: #32302f;
-}
-.about {
-    display: flex;
-    width: 90%;
+    width: 70%;
     margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 7em;
 }
 
-.about img {
-    width: 40%;
-    height: auto;
+.text1 h2 {
+    font-family: 'Cormorant',sans-serif;
+    font-size: 76px;
+    font-weight: 700;
 }
 
-.gallery {
+.text1 p {
+    font-family: 'Cormorant',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.secondpart {
     background-color: #FFF;
 }
 
-.gallerytext> h2 {
-    color: black;
-    font-family: 'cormorant', sans-serif;
-    width: 25%;
-    font-size: 56px;
-    padding:10% 0% 0% 5%
-
-}
-
-.tab {
-    width: 30%;
-}
-
-.tab > h2,
-.tab > p {
-    color: black;
-}
-
-.slides {
+.second,
+.third {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: auto;
-    align-items: center;
+    padding-top: 7em;
+    padding-bottom: 4em;
 }
 
-.text1 > button,
-.text2 > button {
-    background-color: black;
-    width: 15em;
-    height: 4em;
-    color: #fff;
-    border: #c0977c solid;
-    font-family: 'Poppins', sans-serif;
+.sectext {
+    width: 40%;
+}
+
+.sectext h2,
+.thirdtext h2 {
+    font-family: 'Cormorant',sans-serif;
+    font-size: 56px;
+    color: #282725;
+}
+
+.sectext p,
+.thirdtext p {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    color: #282725;
+}
+
+.sectext button {
+    width: 13em;
+    height: 5em;
+    background-color: #c0977c;
+    border-radius: 7px;
+    font-family: 'Poppins',sans-serif;
     font-size: 15px;
 }
 
-.youtube{
-    background-color: #FFF;
-    padding-top: 3em;
-    padding-bottom: 2em;
+.pasta img {
+    border-radius: 20em 20em 0em 0em ;
+    width: 80%;
 }
-.youtube1 {
-    width: 40%;
+
+.thirdpart {
+    background-color: #f0f0f0;
+}
+
+.third {
+    width: 70;
     margin: auto;
+    justify-content: space-between;
+}
+
+.pastaimg img {
+    width: 90%;
+    border-radius: 20em 20em 0em 0em ;
+}
+
+.thirdtext {
+    width: 50%;
     align-items: center;
     text-align: center;
-}
-
-.youtube1 > h2 {
-    color: black;
-    font-family: 'cormorant', sans-serif;
-    font-size: 56px;
-
+    padding-top: 10%;
 }
 
 .lastpart {
@@ -166,7 +152,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../imgs/back.jpg');
+    background-image: url('../imgs/Pasta-2.webp');
     background-size: cover; /* Adjust the background sizing */
     background-attachment: fixed; /* Keep the background fixed */
     z-index: -1; /* Place the background behind the content */
@@ -176,11 +162,11 @@ nav {
     width: 50%;
     margin: auto;
     position: relative;
-    text-align: center;
     padding-top: 10em;
     z-index: 1; /* Place the content above the background */
     /* Other styling for the content */
 }
+
 
 .text3 h2 {
     color: #443f3b;
@@ -212,3 +198,5 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
+
+
